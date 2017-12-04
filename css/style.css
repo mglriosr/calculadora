@@ -1,0 +1,37 @@
+#calculator {
+  border-color: #00ff15;
+  border-width: 1px;
+  border-style: solid;
+  color: #00ff15;
+  margin: 0 auto 0.5em auto;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+a {
+  color: #FFF;
+}
+.pad {
+  cursor:pointer;
+  text-align: center;
+  padding:1em;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+.pad:hover {
+  background-color: rgba(0, 255, 21, 0.5);
+}
+#screen {
+  text-align: right;
+  font-size: 2em;
+}
+#cureentInput {
+  text-align: right;
+}
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+}
